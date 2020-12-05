@@ -1,0 +1,106 @@
+@media(max-width: 768px) {
+  .header-container {
+    height: 155px; 
+    width: 100%;
+    margin: 0 auto;     
+  }  
+  .header-left {
+    float: none;
+    text-align: center;
+  }
+  .address {
+    float: none;
+    text-align: center;
+  }
+  .header-container img {
+    margin-top: 5px;
+  }
+  .address > :nth-child(1) {
+    margin-top:5px;  
+  }
+  .address > :nth-child(2) {
+    margin-top: 5px;
+  }
+  .address > :nth-child(3) {
+    margin-top: 5px;
+    width: 240px;
+    display: inline-block;    
+  }
+  .nav {
+    width: 100%;
+    padding: 0 2%;
+  }  
+  .main-container {
+    width: 100%;
+    padding: 0 2%;    
+  }
+  .menu {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 0px;  
+  }
+  .last {
+    margin-bottom: 20px;
+  }     
+  .main-content {  
+    width: 100%;  
+    float: none;
+    margin: 0 auto;       
+  }
+  .service h4 {    
+    padding: 15px 0 15px 0;
+  }
+  .service p {    
+    padding: 0 15px 5px 0;
+  }  
+  .top-table td {
+    display: block;
+    padding: 10px 5px;
+  }
+  .top-table .date {
+    border-bottom: none;
+    padding-top: 20px;
+  }
+  .doctor-img {
+    float: none;     
+    text-align: center;
+  }
+  .doctor h5 {
+    width: 100%;    
+  }
+  .access {  
+    padding-bottom: 10px;
+  }
+  #target {
+    width: 100%;
+  }
+  .access img {
+    float: none;     
+  }
+  aside {
+    float: none;
+    margin-top: 25px;      
+  }
+  .general {
+    width: 100%;
+  }
+  .beauty {
+    width: 100%;
+  }
+  aside li {
+    width: 100%;
+  }
+  .footer-container {
+    width: 100%;    
+  }
+  .nav-list {
+    height: 60px;
+    word-break: break-all;
+  }
+  .footer-container span {
+    display: block;
+    padding: 0 2%;
+  } 
+}

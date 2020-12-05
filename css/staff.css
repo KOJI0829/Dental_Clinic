@@ -1,0 +1,105 @@
+.menu {
+  margin-bottom: 10px;
+}
+.breadcrumb {  
+  margin-bottom: 10px;
+  padding: 0;
+  list-style: none;
+}
+.breadcrumb li {
+  display: inline;
+  list-style: none;  
+}
+.breadcrumb li:after {
+  content: '>';
+  padding: 0 2px;
+  color: #515151;
+}
+.breadcrumb li:last-child:after {
+  content: '';
+}
+.breadcrumb li a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #515151;
+}
+.breadcrumb li a:hover {
+  text-decoration: underline;
+  color: #cc4866;
+}
+
+.introduce {  
+  background-color: #ffffff;  
+}
+.introduce-title {
+  height: 60px;
+  background: linear-gradient(rgb(156,227,225),rgb(108,198,196));
+  border: 1px solid #6cc6c4;
+  border-radius: 5px 5px 0 0;
+}
+.introduce h2 {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 60px;
+  padding: 0 20px;  
+}
+.doctor {
+  padding: 0 20px 0 20px;  
+}
+.doctor h3 {
+  font-size: 16px;
+  color: #515151;
+  padding: 30px 0 15px 0;  
+  border-bottom: 3px solid #6cc6c4;  
+}
+.doctor-img {  
+  margin-right: 20px;
+  float: left;
+}
+.doctor img {
+  width: 200px;
+}
+.doctor h5 {
+  width: 200px;
+  text-align: center;
+  background-color: #6CC6C4;
+  color: #ffffff;
+  font-weight: normal;
+  padding: 2px;  
+}
+.clear {
+  clear: both;
+}
+.doctor h4 {    
+  font-size: 15px;
+  color: #6cc6c4;
+  font-weight: bold;
+  padding: 35px 0 15px 0;
+}
+.doctor p {
+  font-size: 13px;
+  color: #515151;
+  padding-bottom: 5px;
+}
+.doctor .first {
+  margin-bottom: 10px;
+}
+.doctor .second {
+  margin-top: 10px;
+}
+.staff {  
+  padding: 0 20px 20px 20px;  
+}
+.staff h3 {
+  font-size: 16px;
+  color: #515151;
+  padding: 30px 0 15px 0;  
+  border-bottom: 3px solid #6cc6c4;  
+}
+img {
+  margin: 15px 0 15px 0;
+}
+.staff p {
+  font-size: 13px;
+  color: #515151;
+  padding-bottom: 5px;

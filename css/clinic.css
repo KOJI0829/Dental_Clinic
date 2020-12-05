@@ -1,0 +1,101 @@
+.menu {
+  margin-bottom: 10px;
+}
+.breadcrumb {  
+  margin-bottom: 10px;
+  padding: 0;
+  list-style: none;
+}
+.breadcrumb li {
+  display: inline;
+  list-style: none;  
+}
+.breadcrumb li:after {
+  content: '>';
+  padding: 0 2px;
+  color: #515151;
+}
+.breadcrumb li:last-child:after {
+  content: '';
+}
+.breadcrumb li a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #515151;
+}
+.breadcrumb li a:hover {
+  text-decoration: underline;
+  color: #cc4866;
+}
+
+.introduce {  
+  background-color: #ffffff;  
+}
+.introduce-title {
+  height: 60px;
+  background: linear-gradient(rgb(156,227,225),rgb(108,198,196));
+  border: 1px solid #6cc6c4;
+  border-radius: 5px 5px 0 0;
+}
+.introduce h2 {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 60px;
+  padding: 0 20px;  
+}
+.content1 {
+  padding: 0 20px 0 20px;  
+}
+.content1 h3 {
+  font-size: 16px;
+  color: #515151;
+  padding: 30px 0 15px 0;  
+  border-bottom: 3px solid #6cc6c4;  
+}
+.content1 h4 {
+  font-size: 15px;
+  color: #6cc6c4;
+  font-weight: bold;
+  padding: 25px 0 15px 15px;
+}
+.content1 p {
+  font-size: 13px;
+  color: #515151;
+  padding: 0 15px 10px 15px;
+}
+.content2 {
+  padding: 0 20px 30px 20px;    
+}
+.content2 h3 {
+  font-size: 16px;
+  color: #515151;
+  padding: 30px 0 15px 0;  
+  border-bottom: 3px solid #6cc6c4;  
+}
+.content2 th,td {
+  border: 1px solid #999999;
+  padding: 10px 30px;
+  font-size: 13px;
+}
+.content2 th {
+  background-color: #D1D1D1;
+}
+.content2 table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin: 15px 0;   
+}
+.content2 p {
+  font-size: 13px;
+  color: #515151;
+  margin-bottom: 10px;
+}
+.content2 span {
+  font-weight: bold;  
+}
+.close, .reserve, .info {
+  margin-top: 20px;
+}
+
+

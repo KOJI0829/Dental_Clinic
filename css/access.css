@@ -1,0 +1,83 @@
+.menu {
+  margin-bottom: 10px;
+}
+.breadcrumb {  
+  margin-bottom: 10px;
+  padding: 0;
+  list-style: none;
+}
+.breadcrumb li {
+  display: inline;
+  list-style: none;  
+}
+.breadcrumb li:after {
+  content: '>';
+  padding: 0 2px;
+  color: #515151;
+}
+.breadcrumb li:last-child:after {
+  content: '';
+}
+.breadcrumb li a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #515151;
+}
+.breadcrumb li a:hover {
+  text-decoration: underline;
+  color: #cc4866;
+}
+
+.access {  
+  background-color: #ffffff;  
+  overflow: auto;
+  padding-bottom: 30px;
+}
+.access-title {
+  height: 60px;
+  background: linear-gradient(rgb(156,227,225),rgb(108,198,196));
+  border: 1px solid #6cc6c4;
+  border-radius: 5px 5px 0 0;
+}
+.access h2 {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 60px;
+  padding: 0 20px;  
+}
+.access-map {
+  padding: 0 20px 30px 20px;  
+}
+.access-map h3 {
+  font-size: 16px;
+  color: #515151;
+  padding: 30px 0 15px 0;  
+  border-bottom: 3px solid #6cc6c4;  
+}
+.access-map h4 {
+  font-size: 15px;
+  color: #6cc6c4;
+  font-weight: bold;
+  padding: 25px 0 15px 15px;
+}
+.access-map p {
+  font-size: 13px;
+  color: #515151;
+  padding: 0 0 5px 15px;
+}
+#target {
+  width: 600px;
+  height: 350px;  
+  margin: 10px 0;  
+}
+hr {
+  border: 2px solid #6cc6c4;  
+}
+.access img {  
+  width: 200px;  
+  margin: 10px 20px 0 0; 
+  float: left;  
+}
+.access .station {
+  margin-top: 10px;
+}
